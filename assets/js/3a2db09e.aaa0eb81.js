@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfacettenschach_landing=self.webpackChunkfacettenschach_landing||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"Willkommen","permalink":"/blog/tags/willkommen","count":1},{"label":"Neuigkeiten","permalink":"/blog/tags/neuigkeiten","count":1},{"label":"Facettenschach","permalink":"/blog/tags/facettenschach","count":1}]}')}}]);

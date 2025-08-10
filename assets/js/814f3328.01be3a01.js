@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfacettenschach_landing=self.webpackChunkfacettenschach_landing||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Willkommen auf unserem Blog","permalink":"/blog/2025/08/10/Willkommen","unlisted":false,"date":"2025-08-10T00:00:00.000Z"}]}')}}]);
