@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfacettenschach_landing=self.webpackChunkfacettenschach_landing||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
