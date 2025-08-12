@@ -81,7 +81,6 @@ const config: Config = {
         {
           title: 'Projekt',
           items: [
-            { label: 'Über das Projekt', to: '/docs/intro' },
             { label: 'Github - Organisation', href: 'https://github.com/facettenschach' },
             { label: 'Github - Diese Seite', href: 'https://github.com/facettenschach/facettenschach.github.io' },
           ],
@@ -91,6 +90,13 @@ const config: Config = {
           items: [
             { label: 'Anleitung', to: '/docs/intro' },
             { label: 'Blog', to: '/blog' },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            { label: 'YouTube', href: 'https://www.youtube.com/@chesscraft_Trainer' }, 
+            { label: 'Kurse', href: 'https://pandachess.de/' },
           ],
         },
         {
