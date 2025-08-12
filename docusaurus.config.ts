@@ -33,7 +33,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'de',
-    locales: ['en', 'de'],
+    locales: ['de'],
   },
 
   presets: [
@@ -63,12 +63,9 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/docs/intro', label: 'Docs', position: 'left' },
+        { to: '/docs/intro', label: 'Anleitung', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { type: 'localeDropdown', position: 'right' },     // language picker
-        { href: 'https://github.com/facettenschach/frontend', label: 'Frontend', position: 'right' },
-        { href: 'https://github.com/facettenschach/backend', label: 'Backend', position: 'right' },
-        { href: 'http://88.222.221.205/', label: 'Play (VPS)', position: 'right' },
+        { href: 'http://88.222.221.205/', label: 'Spielen', position: 'right' },
       ],
     },
     
@@ -84,17 +81,25 @@ const config: Config = {
         {
           title: 'Projekt',
           items: [
-            { label: 'Frontend', href: 'https://github.com/facettenschach/facettenschach-frontend' },
-            { label: 'Backend', href: 'https://github.com/facettenschach/facettenschach-backend' },
+            { label: 'Über das Projekt', to: '/docs/intro' },
+            { label: 'Github - Organisation', href: 'https://github.com/facettenschach' },
+            { label: 'Github - Diese Seite', href: 'https://github.com/facettenschach/facettenschach.github.io' },
           ],
         },
         {
           title: 'Mehr',
           items: [
-            { label: 'Docs', to: '/docs/intro' },
+            { label: 'Anleitung', to: '/docs/intro' },
             { label: 'Blog', to: '/blog' },
           ],
         },
+        {
+          title: 'Rechtliches',
+          items: [
+            { label: 'Impressum', to: '/legal/impressum' },
+            { label: 'Datenschutz', to: '/legal/datenschutz' },
+          ], 
+        }
       ],
       copyright: `© ${new Date().getFullYear()} Facettenschach`,
     },
