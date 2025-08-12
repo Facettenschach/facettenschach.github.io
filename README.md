@@ -16,7 +16,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Facettenschach/facettenschach.github.io.git
-cd facettenschach
+cd facettenschach.github.io
 npm install
 npm run start
 ```

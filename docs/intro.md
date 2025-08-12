@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Anleitung Facettenschach
+# Starte hier
 
 Willkommen zur **offiziellen Anleitung von Facettenschach**. \
 Hier erfährst du Schritt für Schritt, wie unser einzigartiges Schachspiel funktioniert und welche neuen Möglichkeiten es dir bietet.
