@@ -55,12 +55,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/ogImage.png', // social preview
     navbar: {
       title: 'Facettenschach',
       logo: {
         alt: 'Facettenschach logo',
-        src: 'img/logo.svg',
+        src: 'img/facettenschach-icon.png',
       },
       items: [
         { to: '/docs/intro', label: 'Anleitung', position: 'left' },
