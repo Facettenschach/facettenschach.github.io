@@ -1,41 +1,35 @@
-# Website
+# Facettenschach – Official Landing Page
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  <img src="static/img/facettenschach-icon.png" alt="Facettenschach Logo" width="120" />
+</p>
 
-## Installation
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen?logo=github)](https://facettenschach.github.io)
+
+This is the **official repository** for the **Facettenschach** landing page, documentation, and blog.  
+Built with [Docusaurus](https://docusaurus.io/) and deployed automatically via **GitHub Actions** to GitHub Pages.
+
+
+## 🚀 Quick Start
+
+Clone the repository and install dependencies:
 
 ```bash
-yarn
+git clone https://github.com/Facettenschach/facettenschach.github.io.git
+cd facettenschach
+npm install
+npm run start
 ```
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The site will available at: [http://localhost:3000](http://localhost:3000)
 
 ## Build
-
 ```bash
-yarn build
+npm run build
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This generates the static files into the `build`directory.
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The site is automatically deployed to [facettenschach.github.io](https://facettenschach.github.io)
+via *GitHub Actions* whenever chages are pushed to the `main` branch.
