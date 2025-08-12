@@ -56,7 +56,7 @@ export default function Home() {
                   'button button--secondary button--lg',
                   styles.iconButton
                 )}
-                to="/play"
+                to="https://pybay.de"
               >
                 <Play className={styles.buttonIcon} />
                 Jetzt spielen
@@ -134,7 +134,7 @@ export default function Home() {
                 'button button--secondary button--lg',
                 styles.iconButton
               )}
-              to="/play"
+              to="https://pybay.de"
             >
               <Play className={styles.buttonIcon} />
               Jetzt spielen

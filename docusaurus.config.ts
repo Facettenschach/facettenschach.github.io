@@ -65,7 +65,7 @@ const config: Config = {
       items: [
         { to: '/docs/intro', label: 'Anleitung', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { href: 'http://88.222.221.205/', label: 'Spielen', position: 'right' },
+        { href: 'https://pybay.de', label: 'Spielen', position: 'right' },
       ],
     },
     
