@@ -20,4 +20,4 @@ Schau gerne später wieder vorbei, um die neuesten Kapitel zu entdecken!
 
 ---
 
-📌 **Tipp:** Wenn du sofort loslegen möchtest, kannst du bereits jetzt eine Partie starten und dir die Regeln im Spiel anzeigen lassen. Klicke dazu einfach oben rechts auf Spielen.
+📌 **Tipp:** Wenn du sofort loslegen möchtest, kannst du bereits jetzt eine Partie starten und dir die Regeln im Spiel anzeigen lassen.
