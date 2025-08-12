@@ -108,17 +108,15 @@ export default function Home() {
         {/* Video */}
         <section id="video" className={clsx('margin-vert--xl', styles.section50)}>
           <div className="container text--center">
-            <h2>Video</h2>
-            <p>Sieh dir das Tutorial an oder lade die Spielregeln herunter.</p>
-            <div className="row margin-top--lg">
-              <div className="col col--6">
-                <div className={styles.videoWrapper}>
-                  <iframe
-                    src="https://www.youtube.com/embed/0Qs4A9BVVJA"
-                    title="Facettenschach Tutorial"
-                    allowFullScreen
-                  />
-                </div>
+            <h2>Video-Trailer</h2>
+            <p>Ein kurzer Einblick in die spannenden Möglichkeiten von Facettenschach.</p>
+            <div className="margin-top--lg">
+              <div className={styles.videoWrapper}>
+                <iframe
+                  src="https://www.youtube.com/embed/0Qs4A9BVVJA"
+                  title="Facettenschach Trailer"
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>
