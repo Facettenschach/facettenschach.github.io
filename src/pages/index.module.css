@@ -1,51 +1,83 @@
+/* hero wrapper (module-scoped) */
 .heroBanner {
   padding: 4rem 0;
-  background: linear-gradient(135deg, #dc2626, #f97316);
-  color: white;
+  background: linear-gradient(135deg, #fcebea, #fff7ed); /* much lighter */
+  color: #111827;
   position: relative;
 }
 
+/* hero title and subtitle (module-scoped) */
+.heroTitle {
+  font-size: clamp(2.8rem, 6vw, 5.2rem); /* responsive */
+  color: #b91c1c; /* dark red */
+  font-weight: 800;
+  line-height: 1.02;
+  margin: 0.2rem 0 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.125rem;
+  color: #374151; /* dark gray for readability */
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
+}
+
+/* small scroll chevron */
 .scrollIndicator {
   position: absolute;
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
   animation: bounce 1.5s infinite;
+  color: #6b7280;
 }
-
 @keyframes bounce {
   0%, 100% { transform: translate(-50%, 0); }
   50% { transform: translate(-50%, 8px); }
 }
 
+/* fade-in util */
 .fadeInUp {
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.8s ease;
 }
-
-.fadeInUp.visible {
+.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
+/* button group and icon helpers */
 .buttonGroup {
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .iconButton {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
 }
-
 .buttonIcon {
   display: block;
+  line-height: 0;
 }
 
+/* outline button styling (module-scoped) */
+.outlineButton {
+  border: 2px solid #dc2626;
+  color: #dc2626;
+  background: transparent;
+  transition: background-color 200ms, color 200ms;
+}
+.outlineButton:hover,
+.outlineButton:focus {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+/* features icons */
 .featureIcon {
   display: flex;
   justify-content: center;
@@ -53,18 +85,42 @@
   color: #dc2626;
 }
 
+/* CTA section: make it match hero theme but stronger */
 .ctaSection {
-  background: linear-gradient(135deg, #dc2626, #f97316);
-  color: white;
+  background: linear-gradient(135deg, #fee2e2, #fff7ed);
+  color: #111827;
   padding: 3rem 0;
 }
 
+/* viewport-based sections (module-scoped) with mobile fallback */
+.section80 {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section50 {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* responsive: do not force huge heights on small screens */
+@media (max-width: 900px) {
+  .section80, .section50 {
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+ 
+/* video wrapper */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
 }
-
 .videoWrapper iframe {
   position: absolute;
   top: 0;

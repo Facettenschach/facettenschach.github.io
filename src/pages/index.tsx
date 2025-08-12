@@ -26,7 +26,7 @@ export default function Home() {
           <div className="container text--center">
             <h1
               className={clsx(
-                'hero__title',
+                styles.heroTitle,
                 styles.fadeInUp,
                 isVisible && styles.visible
               )}
@@ -35,13 +35,13 @@ export default function Home() {
             </h1>
             <p
               className={clsx(
-                'hero__subtitle',
+                styles.heroSubtitle,
                 styles.fadeInUp,
                 isVisible && styles.visible
               )}
               style={{ transitionDelay: '150ms' }}
             >
-              Eine neue Dimension strategischer Spiele – jederzeit und überall.
+              Erleben Sie Schach wie nie zuvor. Ein revolutionäres Spiel, das strategische Tiefe mit dynamischen Deckbuilding-Mechaniken für die ultimative geistige Herausforderung kombiniert.
             </p>
             <div
               className={clsx(
@@ -61,8 +61,10 @@ export default function Home() {
                 <Play className={styles.buttonIcon} />
                 Jetzt spielen
               </Link>
+
+              {/* use module outlineButton instead of raw "button--outline" */}
               <Link
-                className="button button--outline button--lg"
+                className={clsx('button button--lg', styles.outlineButton)}
                 to="#features"
               >
                 Mehr erfahren
@@ -75,7 +77,7 @@ export default function Home() {
         </section>
 
         {/* Features */}
-        <section id="features" className="margin-vert--xl">
+        <section id="features" className={clsx('margin-vert--xl', styles.section50)}>
           <div className="container">
             <div className="row text--center">
               <div className="col col--4">
@@ -83,68 +85,47 @@ export default function Home() {
                   <Crown size={40} />
                 </div>
                 <h3>Strategische Tiefe</h3>
-                <p>
-                  Jeder Zug zählt – plane voraus und gewinne mit Weitsicht.
-                </p>
+                <p>Jeder Zug zählt – plane voraus und gewinne mit Weitsicht.</p>
               </div>
               <div className="col col--4">
                 <div className={styles.featureIcon}>
                   <Puzzle size={40} />
                 </div>
                 <h3>Einzigartige Mechaniken</h3>
-                <p>
-                  Innovative Regeln, die dein Schachdenken herausfordern.
-                </p>
+                <p>Innovative Regeln, die dein Schachdenken herausfordern.</p>
               </div>
               <div className="col col--4">
                 <div className={styles.featureIcon}>
                   <Zap size={40} />
                 </div>
                 <h3>Dynamisches Spiel</h3>
-                <p>
-                  Keine Partie gleicht der anderen – passe dich an und siege.
-                </p>
+                <p>Keine Partie gleicht der anderen – passe dich an und siege.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Anleitung mit YouTube & Download */}
-        <section id="instructions" className="margin-vert--xl">
+        {/* Video */}
+        <section id="video" className={clsx('margin-vert--xl', styles.section50)}>
           <div className="container text--center">
-            <h2>Anleitung</h2>
+            <h2>Video</h2>
             <p>Sieh dir das Tutorial an oder lade die Spielregeln herunter.</p>
             <div className="row margin-top--lg">
               <div className="col col--6">
                 <div className={styles.videoWrapper}>
                   <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/DEIN_VIDEO_ID"
+                    src="https://www.youtube.com/embed/0Qs4A9BVVJA"
                     title="Facettenschach Tutorial"
-                    frameBorder="0"
                     allowFullScreen
                   />
                 </div>
-              </div>
-              <div className="col col--6 flex--center flex--col">
-                <Link
-                  className={clsx(
-                    'button button--secondary button--lg',
-                    styles.iconButton
-                  )}
-                  to="/downloads/facettenschach_regeln.pdf"
-                >
-                  <Download className={styles.buttonIcon} />
-                  PDF herunterladen
-                </Link>
               </div>
             </div>
           </div>
         </section>
 
         {/* CTA */}
-        <section className={styles.ctaSection}>
+        <section className={clsx(styles.ctaSection, styles.section50)}>
           <div className="container text--center">
             <h2>Bist du bereit?</h2>
             <p>Starte jetzt deine erste Partie Facettenschach!</p>
