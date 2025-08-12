@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfacettenschach_landing=self.webpackChunkfacettenschach_landing||[]).push([[647],{7121:(e,a,c)=>{c.r(a),c.d(a,{default:()=>l});c(6540);var s=c(4164),n=c(7559),r=c(5500),t=c(2831),h=c(1656),u=c(4848);function l(e){return(0,u.jsx)(r.e3,{className:(0,s.A)(n.G.wrapper.docsPages),children:(0,u.jsx)(h.A,{children:(0,t.v)(e.route.routes)})})}}}]);

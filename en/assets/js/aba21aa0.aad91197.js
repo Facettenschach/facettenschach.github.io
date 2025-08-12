@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfacettenschach_landing=self.webpackChunkfacettenschach_landing||[]).push([[742],{7093:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
