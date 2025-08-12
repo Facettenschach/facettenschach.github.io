@@ -1,0 +1,14 @@
+willkommen:
+  label: Willkommen
+  permalink: /blog/tags/willkommen
+  description: "Begrüßungs- und Einführungsbeiträge."
+
+neuigkeiten:
+  label: Neuigkeiten
+  permalink: /blog/tags/neuigkeiten
+  description: "Updates und neue Funktionen."
+
+facettenschach:
+  label: Facettenschach
+  permalink: /blog/tags/facettenschach
+  description: "Alles rund um das Spiel Facettenschach."
