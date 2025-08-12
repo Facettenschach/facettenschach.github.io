@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfacettenschach_landing=self.webpackChunkfacettenschach_landing||[]).push([[947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Das Facettenschach-Team","key":"facettenschach-team","page":null,"count":1}]}')}}]);
