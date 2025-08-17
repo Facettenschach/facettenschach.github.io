@@ -28,3 +28,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+.navbar {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
